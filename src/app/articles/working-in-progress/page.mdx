@@ -1,0 +1,22 @@
+import { ArticleLayout } from '@/components/ArticleLayout'
+import workInProgressImg from './work-in-progress.png'
+
+export const article = {
+  author: 'Rafael Pacheco',
+  date: '2024-08-10',
+  title: 'Work in Progress',
+  description: 'Please, come back later. I am updating the new version of my site. If you need get some old content, use the link https://old.ravpacheco.com.',
+}
+
+export const metadata = {
+  title: article.title,
+  description: article.description,
+}
+
+export default (props) => <ArticleLayout article={article} {...props} />
+
+Please, come back later. I'm updating the new version of my site. If you need get some old content, use the link https://old.ravpacheco.com.
+
+<Image src={workInProgressImg} alt="" />
+
+## Sermone fata
