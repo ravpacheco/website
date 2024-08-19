@@ -288,19 +288,27 @@ export default async function Home() {
             If you want to talk with me use one of the following contacts 👇.
           </p>
           <div className="mt-6 flex gap-6">
-            <SocialLink href="#" aria-label="Follow on X" icon={XIcon} />
             <SocialLink
-              href="#"
+              target="_blank"
+              href="https://x.com/ravpachecco"
+              aria-label="Follow on X"
+              icon={XIcon}
+            />
+            <SocialLink
+              target="_blank"
+              href="http://instagram.com/ravpachecco"
               aria-label="Follow on Instagram"
               icon={InstagramIcon}
             />
             <SocialLink
-              href="#"
+              target="_blank"
+              href="https://github.com/ravpacheco"
               aria-label="Follow on GitHub"
               icon={GitHubIcon}
             />
             <SocialLink
-              href="#"
+              target="_blank"
+              href="http://linkedin.com/in/ravpacheco"
               aria-label="Follow on LinkedIn"
               icon={LinkedInIcon}
             />
