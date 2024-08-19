@@ -278,12 +278,12 @@ export default async function Home() {
             Notes, tutorials, reflexions and everything else... 😊
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-            I'm trying to make <b>my world</b> a better place through code.
+            I`m trying to make <b>my world</b> a better place through code.
             <br />
-            If you agree with me it's ok! If you don't agree with me it's ok
+            If you agree with me it`s ok! If you don`t agree with me it`s ok
             too!
             <br />
-            <b>Please don't expect too much from me.</b>
+            <b>Please don`t expect too much from me.</b>
             <br />
             If you want to talk with me use one of the following contacts 👇.
           </p>
