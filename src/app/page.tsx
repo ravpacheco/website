@@ -300,8 +300,6 @@ export default async function Home() {
             too!
             <br />
             <b>Please don`t expect too much from me.</b>
-            <br />
-            If you want to talk with me use one of the following contacts 👇.
           </p>
           <div className="mt-6 flex gap-6">
             <SocialLink
