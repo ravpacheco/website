@@ -8,12 +8,12 @@ import '@/styles/tailwind.css'
 
 export const metadata: Metadata = {
   title: {
-    template: '%s - Spencer Sharp',
+    template: '%s - Rafael Pacheco',
     default:
-      'Spencer Sharp - Software designer, founder, and amateur astronaut',
+      'Rafael Pacheco',
   },
   description:
-    'I’m Spencer, a software designer and entrepreneur based in New York City. I’m the founder and CEO of Planetaria, where we develop technologies that empower regular people to explore space on their own terms.',
+    'I`m trying to make my world a better place through code.',
   alternates: {
     types: {
       'application/rss+xml': `${process.env.NEXT_PUBLIC_SITE_URL}/feed.xml`,
@@ -35,7 +35,7 @@ export default function RootLayout({
           </div>
         </Providers>
       </body>
-      <GoogleAnalytics gaId="62025300" />
+      <GoogleAnalytics gaId="G-F6ZXRKBG2V" />
     </html>
   )
 }
