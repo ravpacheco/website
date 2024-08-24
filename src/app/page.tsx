@@ -1,3 +1,5 @@
+import { useRouter } from 'next/navigation'
+
 import Image, { type ImageProps } from 'next/image'
 import Link from 'next/link'
 import clsx from 'clsx'

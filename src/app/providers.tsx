@@ -38,14 +38,14 @@ function ThemeWatcher() {
   return null
 }
 
-export const AppContext = createContext<{ previousPathname?: string }>({})
+export const AppContext = createContext<{ previousPathname?: string, pathname?: string  }>({})
 
 export function Providers({ children }: { children: React.ReactNode }) {
   let pathname = usePathname()
   let previousPathname = usePrevious(pathname)
 
   return (
-    <AppContext.Provider value={{ previousPathname }}>
+    <AppContext.Provider value={{ previousPathname, pathname }}>
       <ThemeProvider attribute="class" disableTransitionOnChange>
         <ThemeWatcher />
         {children}
